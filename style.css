@@ -1,0 +1,71 @@
+body{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 97vh;
+  align-items: center;
+}
+
+
+.main{
+  height: 250px;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 60px;
+}
+
+.temario{
+  width: 729px;
+  height: auto;
+}
+
+.title{
+  border-bottom: 2px solid #252525;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tema{
+  height: 60px;
+  padding: 0px 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 2px;
+  border-bottom: 1px solid #b9b8b8;
+}
+
+.tema:hover{
+  border: 2px solid #d8d7d7;    
+}
+
+.Icon{
+  width: 30px;
+  height: 30px;
+}
+
+.IconHover{
+  width: 15px;
+  height: 15px;
+  opacity: 0;
+}
+
+.tema:hover .IconHover{
+  opacity: 100;
+} 
+
+.nombreTema{
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+}
+
+.fechaDePublicacion{
+  font-size: small;
+  font-weight: lighter;
+}
